@@ -1,6 +1,6 @@
 <!-- Start SDK Example Usage [usage] -->
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
     apiKey: "<YOUR_API_KEY_HERE>",

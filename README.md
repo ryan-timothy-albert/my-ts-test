@@ -22,25 +22,25 @@ It has been generated successfully based on your OpenAPI spec. However, it is no
 ### NPM
 
 ```bash
-npm add ry-ts
+npm add ryantypescript
 ```
 
 ### PNPM
 
 ```bash
-pnpm add ry-ts
+pnpm add ryantypescript
 ```
 
 ### Bun
 
 ```bash
-bun add ry-ts
+bun add ryantypescript
 ```
 
 ### Yarn
 
 ```bash
-yarn add ry-ts zod
+yarn add ryantypescript zod
 
 # Note that Yarn does not install peer dependencies automatically. You will need
 # to install zod as shown above.
@@ -59,7 +59,7 @@ For supported JavaScript runtimes, please consult [RUNTIMES.md](RUNTIMES.md).
 ### Example
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
     apiKey: "<YOUR_API_KEY_HERE>",
@@ -131,7 +131,7 @@ Certain SDK methods accept files as part of a multi-part request. It is possible
 > - **Node.js v18:** A file stream can be created using the `fileFrom` helper from [`fetch-blob/from.js`](https://www.npmjs.com/package/fetch-blob).
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
     apiKey: "<YOUR_API_KEY_HERE>",
@@ -167,8 +167,8 @@ Validation errors can also occur when either method arguments or data returned f
 
 
 ```typescript
-import { RyTs } from "ry-ts";
-import { SDKValidationError } from "ry-ts/models/errors";
+import { RyTs } from "ryantypescript";
+import { SDKValidationError } from "ryantypescript/models/errors";
 
 const ryTs = new RyTs({
     apiKey: "<YOUR_API_KEY_HERE>",
@@ -234,7 +234,7 @@ You can override the default server globally by passing a server index to the `s
 | 0 | `https://{environment}.petstore.io` | `environment` (default is `prod`) |
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
     serverIdx: 0,
@@ -270,7 +270,7 @@ Some of the server options above contain variables. If you want to set the value
 The default server can also be overridden globally by passing a URL to the `serverURL` optional parameter when initializing the SDK client instance. For example:
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
     serverURL: "https://{environment}.petstore.io",
@@ -315,8 +315,8 @@ custom header and a timeout to requests and how to use the `"requestError"` hook
 to log errors:
 
 ```typescript
-import { RyTs } from "ry-ts";
-import { HTTPClient } from "ry-ts/lib/http";
+import { RyTs } from "ryantypescript";
+import { HTTPClient } from "ryantypescript/lib/http";
 
 const httpClient = new HTTPClient({
   // fetcher takes a function that has the same signature as native `fetch`.
@@ -359,7 +359,7 @@ This SDK supports the following security scheme globally:
 
 To authenticate with the API the `apiKey` parameter must be set when initializing the SDK client instance. For example:
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
     apiKey: "<YOUR_API_KEY_HERE>",

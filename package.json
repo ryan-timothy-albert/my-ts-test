@@ -1,7 +1,7 @@
 {
-  "name": "ry-ts",
-  "version": "0.0.2",
-  "author": "Speakeasy",  
+  "name": "ryantypescript",
+  "version": "1.0.0",
+  "author": "ryantimalbert",  
   "main": "./index.js",
   "sideEffects": false,
   "repository": {

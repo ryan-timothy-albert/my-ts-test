@@ -10,7 +10,7 @@ mkdir samples
 npm install
 npm install -g ts-node
 npm link
-npm link ry-ts
+npm link ryantypescript
 TS_CONFIG_CONTENT=$(cat <<EOL
 {
   "compilerOptions": {
