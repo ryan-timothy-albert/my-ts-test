@@ -1,0 +1,14 @@
+workflowVersion: 1.0.0
+sources:
+    sample-source:
+        inputs:
+            - location: openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/ryan-local/ryan-telemetry/sample-source
+targets:
+    ry-ts:
+        target: typescript
+        source: sample-source
+        publish:
+            npm:
+                token: $npm_token

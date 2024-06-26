@@ -1,0 +1,27 @@
+speakeasyVersion: 1.321.0
+sources:
+    sample-source:
+        sourceNamespace: sample-source
+        sourceRevisionDigest: sha256:3bd9e62a3c79b5b829666f54a7e17bf1a2b22bc2c01b1e02f4205657cacce7e8
+        sourceBlobDigest: sha256:7eac04b35576cb214d996fcde3c7a1f90edaf1db6cb0af3691d5b77069695d0c
+        tags:
+            - latest
+targets:
+    ry-ts:
+        source: sample-source
+        sourceNamespace: sample-source
+        sourceRevisionDigest: sha256:3bd9e62a3c79b5b829666f54a7e17bf1a2b22bc2c01b1e02f4205657cacce7e8
+        sourceBlobDigest: sha256:7eac04b35576cb214d996fcde3c7a1f90edaf1db6cb0af3691d5b77069695d0c
+        outLocation: /Users/ryanalbert/my-ts-test
+workflow:
+    workflowVersion: 1.0.0
+    sources:
+        sample-source:
+            inputs:
+                - location: openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/ryan-local/ryan-telemetry/sample-source
+    targets:
+        ry-ts:
+            target: typescript
+            source: sample-source
