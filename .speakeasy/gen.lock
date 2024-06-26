@@ -5,8 +5,8 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 1.321.0
   generationVersion: 2.354.2
-  releaseVersion: 0.0.2
-  configChecksum: c63ea70d75f5fa480e6b4718bdcf70dc
+  releaseVersion: 1.0.0
+  configChecksum: 18a0ba3b97e6c1dafcb34369518a4fcb
   repoURL: https://github.com/ryan-timothy-albert/my-ts-test.git
   installationURL: https://github.com/ryan-timothy-albert/my-ts-test
   published: true

@@ -22,7 +22,7 @@ This can only be done by the logged in user.
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -72,7 +72,7 @@ Creates list of users with given input array
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -124,7 +124,7 @@ Logs user into the system
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -168,7 +168,7 @@ Logs out current logged in user session
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -207,7 +207,7 @@ Get user by user name
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -253,7 +253,7 @@ This can only be done by the logged in user.
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -305,7 +305,7 @@ This can only be done by the logged in user.
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",

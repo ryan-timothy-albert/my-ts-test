@@ -24,7 +24,7 @@ Update an existing pet by Id
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -78,7 +78,7 @@ Add a new pet to the store
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -129,7 +129,7 @@ Multiple status values can be provided with comma separated strings
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -173,7 +173,7 @@ Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -217,7 +217,7 @@ Returns a single pet
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -263,7 +263,7 @@ Deletes a pet
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -309,7 +309,7 @@ uploads an image
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",

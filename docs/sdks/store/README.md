@@ -21,7 +21,7 @@ Returns a map of status codes to quantities
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -63,7 +63,7 @@ Place a new order in the store
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -111,7 +111,7 @@ For valid response try integer IDs with value <= 5 or > 10. Other values will ge
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -157,7 +157,7 @@ For valid response try integer IDs with value < 1000. Anything above 1000 or non
 ### Example Usage
 
 ```typescript
-import { RyTs } from "ry-ts";
+import { RyTs } from "ryantypescript";
 
 const ryTs = new RyTs({
   apiKey: "<YOUR_API_KEY_HERE>",
