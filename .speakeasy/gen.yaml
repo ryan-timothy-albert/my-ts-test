@@ -21,7 +21,7 @@ typescript:
     devDependencies: {}
     peerDependencies: {}
   additionalPackageJSON: {}
-  author: Speakeasy
+  author: ryantimalbert
   clientServerStatusCodesAsErrors: true
   enumFormat: union
   flattenGlobalSecurity: true
@@ -37,7 +37,7 @@ typescript:
   maxMethodParams: 0
   methodArguments: require-security-and-request
   outputModelSuffix: output
-  packageName: ry-ts
+  packageName: ryantypescript
   responseFormat: flat
   templateVersion: v2
   useIndexModules: true
