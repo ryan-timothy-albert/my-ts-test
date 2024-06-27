@@ -1,6 +1,6 @@
 {
   "name": "ryantypescript",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "ryantimalbert",  
   "main": "./index.js",
   "sideEffects": false,
