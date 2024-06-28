@@ -1,8 +1,8 @@
-speakeasyVersion: 1.321.0
+speakeasyVersion: 1.322.3
 sources:
     sample-source:
         sourceNamespace: sample-source
-        sourceRevisionDigest: sha256:b81e7efb26fad5554b8865bfd85f66eba32d6bd43114115f85ea022b3423ec3f
+        sourceRevisionDigest: sha256:ef85e423f74bc942c872049716f206b8612d58d8d7ecb944af9c2b18dbd75b16
         sourceBlobDigest: sha256:849ab95113a7a54b7944402c86e88af54754f8ef15f449005e30ca17bac3f5a0
         tags:
             - latest
@@ -11,7 +11,7 @@ targets:
     ry-ts:
         source: sample-source
         sourceNamespace: sample-source
-        sourceRevisionDigest: sha256:b81e7efb26fad5554b8865bfd85f66eba32d6bd43114115f85ea022b3423ec3f
+        sourceRevisionDigest: sha256:ef85e423f74bc942c872049716f206b8612d58d8d7ecb944af9c2b18dbd75b16
         sourceBlobDigest: sha256:849ab95113a7a54b7944402c86e88af54754f8ef15f449005e30ca17bac3f5a0
         outLocation: /github/workspace/repo
 workflow:
