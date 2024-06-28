@@ -39,3 +39,13 @@ Based on:
 - [typescript v3.0.0] .
 ### Releases
 - [NPM v3.0.0] https://www.npmjs.com/package/ryantypescript/v/3.0.0 - .
+
+## 2024-06-28 15:45:55
+### Changes
+Based on:
+- OpenAPI Doc  
+- Speakeasy CLI 1.322.3 (2.354.2) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [typescript v9.0.0] .
+### Releases
+- [NPM v9.0.0] https://www.npmjs.com/package/ryantypescript/v/9.0.0 - .

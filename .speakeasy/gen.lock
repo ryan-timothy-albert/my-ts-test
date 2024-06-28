@@ -3,10 +3,10 @@ id: 648e6c51-9c37-44ff-8f19-c31b2b804cfe
 management:
   docChecksum: 7c524b4be7afdadc4b2f448072865ac4
   docVersion: 1.0.0
-  speakeasyVersion: 1.321.0
+  speakeasyVersion: 1.322.3
   generationVersion: 2.354.2
-  releaseVersion: 3.0.0
-  configChecksum: d1651be10f4e6c1ad698013bf707d880
+  releaseVersion: 9.0.0
+  configChecksum: e8fc0e9c5d4328c7d91bc84ccf1c0eec
   repoURL: https://github.com/ryan-timothy-albert/my-ts-test.git
   installationURL: https://github.com/ryan-timothy-albert/my-ts-test
   published: true
